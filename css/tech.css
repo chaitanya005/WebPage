@@ -1,0 +1,115 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-size: 1.5rem !important;    
+    background-image: url(https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2847&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-size: 3rem !important;
+}
+
+.form-control{
+    font-size:1.5rem !important;
+}
+
+.btn{
+    font-size: 1.5rem !important;
+}
+
+h2{
+    font-size: 5rem !important; 
+}
+
+.center{
+    text-align: center;
+    padding-top: 12%;
+}
+
+h,p{
+    font-size: 2rem;
+}
+
+@media (max-width : 768px){
+    h1 ,p {
+        background-color: green;
+    }
+    
+    h2{
+        background-color: green;
+    }
+    
+}
+
+    /*
+@media (min-width : 768px){
+    h1 ,p {
+        background-color: blue;
+    }
+    
+    h2{
+        background-color: grey;
+    }
+    
+}
+*/
+
+#login{
+    min-width: 250px;
+    background-color: rgba(255,255,255,0);
+    padding: 14px 14px 0;
+    overflow: hidden;
+    opacity: inherit;
+}
+
+#login.social-buttons{
+    margin: 12px 0;
+}
+
+.btn-fb{
+    color:#fff;
+    background-color: #3b599d !important;
+    
+}
+
+.btn{
+/*    background-color: #3b599d !important;*/
+}
+
+.btn-tw{
+    color:#fff;
+    background-color: #55acee !important;
+}
+
+.btn-fb:hover{
+    color:#fff;
+    background-color: #3b599d;
+    
+}
+
+.btn-tw:hover{
+    color:#fff;
+    background-color: #55acee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
